@@ -1,10 +1,19 @@
-# Android Developer Common Commands
+Android Developer Common Commands
+===========================
+Android开发常用命令
 
 ****
 
 图片大小转换
 ```Bash
 convert myfigure.png -resize 200×100 myfigure.jpg #Bash
+
+function doConvert
+{
+    mkdir $1
+	convert $2 -resize $1x$1 $1/$2
+}
+doConvert "64" "test.png" 
 ```
 
 
