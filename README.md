@@ -22,11 +22,6 @@ VIM 编码转换：
 :write ++enc=utf-8 russian.txt
 ```
 
-SVN服务器：
-```Bash
-sudo svnserve -d --foreground -r /opt/svn   #Bash
-```
-
 git命令
 ```Bash
 #Clone the repository
