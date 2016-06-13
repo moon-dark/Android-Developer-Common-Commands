@@ -31,4 +31,7 @@ git clone https://github.com/username/username.github.io
 git add --all   
 git commit -m "Initial commit"
 git push -u origin master
+
+#Push files
+git commit -m 'my notes' -- path/to/my/file.ext
 ```
