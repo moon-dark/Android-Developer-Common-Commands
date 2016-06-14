@@ -30,6 +30,16 @@ git add --all
 git commit -m "Initial commit"
 git push -u origin master
 
+#https://help.github.com/articles/creating-project-pages-manually/
+git checkout --orphan gh-pages
+# Creates our branch, without any parents (it's an orphan!)
+git rm -rf .
+# Remove all files from the old working tree
+git add index.html
+git commit -a -m "First pages commit"
+git push origin gh-pages
+
+
 #Push files
 git commit -m 'my notes' -- path/to/my/file.ext
 ```
