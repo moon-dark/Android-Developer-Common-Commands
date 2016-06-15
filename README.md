@@ -6,6 +6,10 @@ Android开发常用命令
 
 ```
 netstat -pnlt | grep ':portno'           // how to use netstat on a specific port in Linux
+
+wget --mirror -p --adjust-extension --no-parent --convert-links -P yii_doc <url>
+
+export http_proxy=debian:123456@proxy.debian.org:8080 
 ```
 
 图片大小转换
